@@ -1,17 +1,21 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffceb6;
+    background-color: #ed568c;
     margin: 0;
     padding: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
 }
 
 header {
-    background-color: #ff5200;
+    background-color: #9b0e40;
     color: white;
-    padding: 20px 0;
-    position: fixed;
+    padding: 20px;
+    text-align: center;
     width: 100%;
+    position: fixed;
     top: 0;
     left: 0;
 }
@@ -22,39 +26,53 @@ header h1 {
 }
 
 .container {
-    background-color: #ff8951;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 100px;
+    width: 80%;
+}
+
+.inputs {
+    background-color: #c5004699;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    margin: 100px auto 0;
+    width: 40%;
+    color: white;
+}
+
+#resultados {
+    background-color: #c5004699;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 55%;
+    margin-left: 20px;
+    text-align: left;
+    color: white;
 }
 
 input {
-    width: 100px;
-    padding: 10px;
-    margin: 10px;
+    width: 60px;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
 }
 
 button {
     margin-top: 20px;
     padding: 10px;
     width: 100%;
-    background-color: #79300d;
+    background-color: #880332;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 15px;
 }
 
 button:hover {
-    background-color: #411b07;
-}
-
-#resultados {
-    margin-top: 20px;
-    font-size: 1.2em;
+    background-color: #51152d;
 }
 
 table {

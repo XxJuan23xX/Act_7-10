@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #a96dd6;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 header {
-    background-color: #007bff;
+    background-color: #580299;
     color: white;
     padding: 20px 0;
     position: fixed;
@@ -22,27 +22,26 @@ header h1 {
 }
 
 .container {
-    background-color: white;
+    background-color: #8b2ad5;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 500px;
     margin: 100px auto 0;
+    color: white;
 }
 
 input {
-    margin-top: 5px;
-    padding: 8px;
-    width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
 }
 
 button {
     margin-top: 20px;
     padding: 10px;
     width: 100%;
-    background-color: #28a745;
+    background-color: #4d1478;
     color: white;
     border: none;
     border-radius: 4px;
@@ -50,7 +49,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #390f59;
 }
 
 #result {
@@ -60,14 +59,16 @@ button:hover {
 
 table {
     width: 100%;
+    margin: 10px 0;
     border-collapse: collapse;
-    margin-top: 20px;
 }
 
 td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
-    font-size: 18px;
 }
 
+input.matriz-input {
+    width: 50px;
+}

@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuántos ceros tiene mi arreglo?</title>
+    <title>Contar Ceros en Matriz</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Contador de ceros para cada fila de un arreglo</h1>
+        <h1>Contar Ceros en Matriz</h1>
     </header>
-    
     <div class="container">
-        <img src="matriz.png" alt="Matriz de números" id="matrix-image">
-        <button id="countZeros">Dame los Ceros rey</button>
+        <label for="filas">Número de filas:</label>
+        <input type="number" id="filas" min="1" placeholder="Número de filas">
+        <label for="columnas">Número de columnas:</label>
+        <input type="number" id="columnas" min="1" placeholder="Número de columnas">
+        <button id="generarMatriz">Generar Matriz</button>
+        <div id="matrizContainer"></div>
+        <button id="countZeros">Contar Ceros</button>
         <div id="result"></div>
     </div>
 

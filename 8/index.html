@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuadrado Mágico</title>
+    <title>Verificar Cuadrado Mágico</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Calcular si mi cuadrado es un Cuadrado Mágico</h1>
+        <h1>Verificar Cuadrado Mágico</h1>
     </header>
     
     <div class="container">
         <label for="size">Tamaño del cuadrado mágico (n):</label>
         <input type="number" id="size" min="2" placeholder="Ejemplo: 3">
+        <button id="generarMatriz">Generar Matriz</button>
 
-        <button id="verifyMagicSquare">Verificar si es o no</button>
+        <div id="matrizContainer"></div>
+        <button id="verifyMagicSquare">Verificar Cuadrado Mágico</button>
+
         <div id="result"></div>
     </div>
 
